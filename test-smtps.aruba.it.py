@@ -10,7 +10,7 @@ load_dotenv()
 
 smtp_server = os.getenv('SMTP_SERVER')
 smtp_port = os.getenv('587')
-username = os.getenv('USERNAME')
+username = os.getenv('USERNAMES')
 password = os.getenv('PASSWORDY')
 
 senders = {

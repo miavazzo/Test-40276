@@ -15,7 +15,7 @@ username = os.getenv('USERNAMEZ') # fatture@energylifegate
 password = os.getenv('PASSWORD') # fatture@energylifegate
 
 senders = {
-    'Argon': username'
+    'Argon': username
 }
 
 class CustomSMTP(smtplib.SMTP):
