@@ -8,10 +8,10 @@ from dotenv import load_dotenv
 # Carica le variabili di ambiente dal file .env
 load_dotenv()
 
-smtp_server = os.getenv('SMTP_SERVER')
-smtp_port = os.getenv('587')
-username = os.getenv('USERNAMES')
-password = os.getenv('PASSWORDY')
+smtp_server = os.getenv('smtp_server')
+smtp_port = os.getenv('smtp_port')
+username = os.getenv('usernames')
+password = os.getenv('passwordy')
 
 senders = {
     'Argon': username
