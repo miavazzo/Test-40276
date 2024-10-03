@@ -14,6 +14,14 @@ smtp_port = os.getenv('SMTP_PORT')
 username = os.getenv('USERNAMEZ') # fatture@energylifegate
 password = os.getenv('PASSWORD') # fatture@energylifegate
 
+# Aggiungi anche questo per verificare se ci sono variabili già presenti nel sistema
+print("Valori caricati dal .env:")
+print(f"SMTP_SERVER: {os.getenv('SMTP_SERVER')}")
+print(f"SMTP_PORT: {os.getenv('SMTP_PORT')}")
+print(f"USERNAMEZ: {os.getenv('USERNAMEZ')}")
+print(f"PASSWORD: {os.getenv('PASSWORD')}")
+print(f"Recipient Email: {os.getenv('recipientem')}")
+
 senders = {
     'Argon': username
 }
