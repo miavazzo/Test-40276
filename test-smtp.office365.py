@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import os
 
 # Carica le variabili di ambiente dal file .env
-load_dotenv()
+load_dotenv('C:\\Users\\miavazzo\\OneDrive - Capgemini\\Documents\\T. 40276 parametri email portale clienti - fatture Newatt\\.env')
 
 # Dati di accesso e configurazione
 smtp_server = os.getenv('SMTP_SERVER')
